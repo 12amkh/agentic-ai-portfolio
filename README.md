@@ -1,8 +1,8 @@
 # 🤖 Agentic AI Portfolio
 ### Built by [12amkh](https://github.com/12amkh)
 
-A collection of AI Agents built from scratch — from a simple LLM call to a full Multi-Agent system.
-Each project is a step forward in understanding and building real-world Agentic AI.
+A collection of AI Agents built from scratch — from a simple LLM call to a full Ultimate Agent.
+Every project is fully understood, not just copied. Built in Python using free APIs only.
 
 ---
 
@@ -44,7 +44,7 @@ Each project is a step forward in understanding and building real-world Agentic 
 ---
 
 ### 06 — Multi-Agent System (CrewAI)
-> Three specialized agents (Researcher, Analyst, Writer) work together to produce a full report.
+> Three specialized agents (Researcher, Analyst, Writer) collaborate to produce a full report.
 - **Tech:** CrewAI, Groq API
 - **Concepts:** Multi-agent collaboration, task delegation, sequential processing
 
@@ -64,17 +64,26 @@ Each project is a step forward in understanding and building real-world Agentic 
 
 ---
 
+### 09 — Ultimate Agent 🏆
+> The final boss — combines RAG, real web search, PDF reading, and LangGraph into one powerful agent.
+- **Tech:** Groq API, Tavily, ChromaDB, Sentence Transformers, PyPDF, LangGraph
+- **Concepts:** RAG + Web Search + Tools + Graph flow + Context management
+
+---
+
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
 |---|---|
-| [Groq API](https://groq.com) | LLM inference (LLaMA 3.3) |
-| [ChromaDB](https://www.trychroma.com) | Local vector database |
-| [Sentence Transformers](https://www.sbert.net) | Free local embeddings |
+| [Groq API](https://groq.com) | LLM inference (LLaMA 3.3) — Free |
+| [ChromaDB](https://www.trychroma.com) | Local vector database — Free |
+| [Sentence Transformers](https://www.sbert.net) | Local embeddings — Free |
 | [CrewAI](https://www.crewai.com) | Multi-agent framework |
 | [LangGraph](https://langchain-ai.github.io/langgraph) | Graph-based agent flows |
-| [Tavily](https://tavily.com) | Real-time web search |
+| [Tavily](https://tavily.com) | Real-time web search — Free tier |
 | [PyPDF](https://pypdf.readthedocs.io) | PDF reading & parsing |
+
+> 💡 All APIs used have a free tier — no paid subscriptions needed!
 
 ---
 
@@ -105,14 +114,26 @@ python agent.py
 
 ---
 
-## 📚 What I Learned
+## 📚 Concepts Covered
 
-- How LLMs work under the hood (Transformers, Attention, Training)
-- How to give LLMs tools and let them decide autonomously
-- How to build RAG pipelines with Vector Databases
-- How to build Multi-Agent systems with CrewAI
-- How to build graph-based agents with loops using LangGraph
-- How to connect agents to the real internet with Tavily
+- How LLMs work (Transformers, Attention, Training, RLHF)
+- Hallucination, Bias, and how Agents solve them
+- Tool use and the ReAct pattern
+- RAG pipelines with Vector Databases
+- Multi-Agent collaboration with CrewAI
+- Graph-based agents with loops using LangGraph
+- Connecting agents to the real internet with Tavily
+- Secure API key management with `.env`
+
+---
+
+## 🗺️ Learning Roadmap
+
+```
+LLM Call → Memory → Tools → RAG → PDF → Multi-Agent → LangGraph → Web Search → Ultimate Agent
+```
+
+Each project builds on the previous one — no shortcuts, full understanding. 💪
 
 ---
 
@@ -122,4 +143,5 @@ python agent.py
 
 ---
 
-> Built from scratch — no shortcuts, full understanding. 💪
+> Built from scratch using free tools only.
+> Every line of code is understood, not just copied. 💪
